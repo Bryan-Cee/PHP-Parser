@@ -76,7 +76,7 @@ class ParseArgv {
     }
 
     public function __get($name) {
-git s        if ($name === 'singles') {
+        if ($name === 'singles') {
             return $this->singlesArgs;
         } elseif ($name === 'double') {
             return $this->doublesArgs;
